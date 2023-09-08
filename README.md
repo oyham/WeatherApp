@@ -34,7 +34,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![desktop](https://github.com/oyham/WeatherApp/assets/97111287/022f6cb3-8ffc-438f-8755-55b77f6c57c8)
+
 
 ### WeAppther. [Link Here](https://weappther.netlify.app)
 Fue un reto muy desafiante el enfrentarme por mi cuenta a una aplicación de clima. Fueron días de desarrollo, solucionando problemas y aprendiendo nuevas cosas. Siempre vi que desarrollar una aplicación de clima era como caer en el "cliché" del proyecto personal para mostrar, pero me equivoqué.
