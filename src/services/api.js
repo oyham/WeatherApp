@@ -31,7 +31,7 @@ const customFetch = async (endpoint, options) => {
 
 export async function getWeatherData(name) {
     try {
-        const API_KEY = "dfceb17378cea337cdc94c5549ee70ac"
+        const API_KEY = " :P "
         const LANG = "es"
         const UNITS = "metric"
         const URL = `https://api.openweathermap.org/data/2.5/forecast?q=${name}&lang=${LANG}&appid=${API_KEY}&units=${UNITS}`
