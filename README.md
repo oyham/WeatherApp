@@ -1,5 +1,4 @@
 <!-- Please update value in the {}  -->
-
 <h1 align="center">Weather App</h1>
 
 <div align="center">
@@ -8,12 +7,12 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://weappther.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
-      Solution
+    <a href="https://github.com/oyham/WeatherApp">
+      Repo
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv">
@@ -23,15 +22,13 @@
 </div>
 
 <!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [How to use](#how-to-use)
+- [How to](#how-to)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -39,52 +36,31 @@
 
 ![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+### WeAppther. [Link Here](https://weappther.netlify.app)
+Fue un reto muy desafiante el enfrentarme por mi cuenta a una aplicación de clima. Fueron días de desarrollo, solucionando problemas y aprendiendo nuevas cosas. Siempre vi que desarrollar una aplicación de clima era como caer en el "cliché" del proyecto personal para mostrar, pero me equivoqué.
+Mejoré personalemente en estructurar bien las carpetas ya que trabajé con helpers, custom hooks, services (llamada a la api), entre otros. Ya había trabajado con estas utilidades pero nunca lo habia estructurado tan bien (espero). 
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
+- [Vite](https://vitejs.dev/)
 - [React](https://reactjs.org/)
 
 ## Features
-
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) was to build an application to complete the given user stories.
 
-## How To Use
+<!-- PERONAL -->
+## How to...
+La forma en que pense abordar el proyecto fue la siguiente:
+- Primero revisé lo que devolvía el endpoint de la API, un total de 40 items dividios en 8 por cada día, ya que devolvia datos cada 3 horas. 
+- El desafío pedía mostrar el día de hoy más los 5 días siguientes, entonces tuve que dividir cada 8 items y agruparlos en un objeto.
+- En algún momento la API traerá 40 items que corresponderan a 5 días, asi que en ese momento sólo se mostraran los siguientes 4 días y no 5 cómo pide el desafío.
+- Me encuentro en una zona horaria (UTC-3) por lo que recivo de la API los items con una diferencia de 6+ horas. Traté de buscarle alguna solución pero no pude. Lo que debí hacer es sumarle +6 horas a mis funciones para mostrar correctamente la temperatura acorde al día, según la API. 
+- Tampoco la API permite traer los datos con otro formato UTC, y tampoco quise cambiar de API, me parecio un buen desafío tener que buscarle la vuelta para que mi app funcione acorde al formato UTC proporcionado por openWeather. 
 
-<!-- Example: -->
-
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
-
-```bash
-# Clone this repository
-$ git clone https://github.com/oyham/WeatherApp
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
-```
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://oyham)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@your-username](https://github.com/oyham)
+- Instagram [your-website.com](https://www.instagram.com/valentin.oyhamburu/)
+- Twitter [@your-twitter](https://twitter.com/ValenOyhamburu)
