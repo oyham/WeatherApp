@@ -56,12 +56,12 @@ La forma en que pense abordar el proyecto fue la siguiente:
 - Primero revisé lo que devolvía el endpoint de la API, un total de 40 items dividios en 8 por cada día, ya que devolvia datos cada 3 horas. 
 - El desafío pedía mostrar el día de hoy más los 5 días siguientes, entonces tuve que dividir cada 8 items y agruparlos en un objeto.
 - En algún momento la API traerá 40 items que corresponderan a 5 días, asi que en ese momento sólo se mostraran los siguientes 4 días y no 5 cómo pide el desafío.
-- Me encuentro en una zona horaria (UTC-3) por lo que recivo de la API los items con una diferencia de 6+ horas. Traté de buscarle alguna solución pero no pude. Lo que debí hacer es sumarle +6 horas a mis funciones para mostrar correctamente la temperatura acorde al día, según la API. 
+- Me encuentro en una zona horaria (UTC-3) por lo que recibo de la API los items con una diferencia de 6+ horas. Traté de buscarle alguna solución pero no pude. Lo que debí hacer es sumarle +6 horas a mis funciones para mostrar correctamente la temperatura acorde al día, según la API. 
 - Tampoco la API permite traer los datos con otro formato UTC, y tampoco quise cambiar de API, me parecio un buen desafío tener que buscarle la vuelta para que mi app funcione acorde al formato UTC proporcionado por openWeather. 
 
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/oyham)
-- Instagram [your-website.com](https://www.instagram.com/valentin.oyhamburu/)
-- Twitter [@your-twitter](https://twitter.com/ValenOyhamburu)
+- GitHub [Oyham](https://github.com/oyham)
+- Instagram [Valentín Oyhamburu](https://www.instagram.com/valentin.oyhamburu/)
+- Twitter [@ValenOyhamburu](https://twitter.com/ValenOyhamburu)
